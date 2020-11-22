@@ -1,5 +1,11 @@
 ---
-title: "National Lottery Heritage Fund grants for parks and green spaces, 2010-11 to 2019-20, per head of local authority population"
+title: "National Lottery Heritage Fund grants for parks and green spaces, 2010-11 to 2019-20, per head of local
+authority population"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 output: html_document
 ---
 
